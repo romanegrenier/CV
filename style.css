@@ -1,0 +1,90 @@
+body {
+	background-color:  #c2d5c2;
+	font-family : "Gill Sans", sans-serif;
+	font-weight: light;
+
+}
+
+h1 {
+color : #4f5f4f;
+text-align: center ;
+
+}
+
+
+.img {
+height: 220px;
+width: 230px ;
+border-radius: 50%;
+margin-right: 400px ;
+margin-left: 400px;
+
+}
+
+.shadowed{
+
+	box-shadow: 5px  5px  3px  black ;
+}
+
+
+h2 {
+color : #58a854;
+
+
+}
+
+p {
+
+text-justify : center 
+
+}
+
+.container {
+	display : flex;
+	flex-wrap : wrap;
+}
+
+
+.card {
+	background-color: #E7FFE6 ;
+	padding:  60px;
+	margin: 50px;
+	box-shadow: 0px  10px  30px  rgba(0,0,0,0.1);
+	border-radius: 4px;
+	flex-basis: 250px ;
+	flex-grow: 1;
+}
+
+.logo {
+	height: 50px;
+   
+
+}
+
+.bouton {
+	background-color:#E2DBD2;
+	color : darkgrey;
+	padding : 15px 20px;
+	border-radius: 4px;
+}
+.bouton:hover {
+	background-color:#AFACA8;
+	color : white;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px; 
+}
+
+
+  .card {
+    background-color: #E7FFE6 ;
+	padding:  60px;
+	margin: 50px;
+	box-shadow: 0px  10px  30px  rgba(0,0,0,0.1);
+	border-radius: 4px;
+
+  }
+}
